@@ -8,7 +8,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="resources/plugins/bootstrap/bootstrap.min.css">
@@ -19,7 +19,7 @@
 
   <!-- Main Stylesheet -->
   <link href="resources/css/style.css" rel="stylesheet">
-  
+
   <!--Favicon-->
   <link rel="shortcut icon" href="resources/images//favicon.ico" type="image/x-icon">
   <link rel="icon" href="resources/images//favicon.ico" type="image/x-icon">
@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  
+
 
 <header class="navigation fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -235,7 +235,7 @@
 <!-- /clients -->
 
 <!-- contact -->
-<section class="section section-on-footer" data-background="resources/images//backgrounds/bg-dots.png">
+<section class="section section-on-footer" data-background="resources/images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -244,7 +244,9 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="#" class="row">
+
+          <form method="POST" action="https://script.google.com/macros/s/AKfycbxwVCB1cAnPxT0ftSYhUSpR-DQtZBWGiEFTdxTTwA/exec"
+          class="gform row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
@@ -258,6 +260,12 @@
             <div class="col-lg-6 col-10 mx-auto">
               <button class="btn btn-primary w-100">send</button>
             </div>
+
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+			<div class="thankyou_message" style="display:none;">
+				<h2>Thanks for contacting me!</h2>
+			</div>
+
           </form>
         </div>
       </div>
@@ -273,15 +281,15 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+          <p class="text-white paragraph-lg font-secondary">hv6kyh@naver.com</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+          <p class="text-white paragraph-lg font-secondary">+82 10 5114 8021</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+          <p class="text-white paragraph-lg font-secondary">62-1, Gyeongjin-ro 1-gil, Buk-gu, Daegu</p>
         </div>
       </div>
     </div>
