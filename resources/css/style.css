@@ -175,7 +175,7 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  max-width: device-width;
   vertical-align: middle;
   border: 0;
 }
