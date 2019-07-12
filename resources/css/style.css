@@ -910,21 +910,21 @@ blockquote {
 /*# sourceMappingURL=maps/style.css.map */
 
 @media( max-width: 640px ) {
-	#tickets,
-	#tickets thead,
-	#tickets tbody,
-	#tickets tr,
-	#tickets th,
-	#tickets td {
+	#mytable,
+	#mytable thead,
+	#mytable tbody,
+	#mytable tr,
+	#mytable th,
+	#mytable td {
 		display: block;
 	}
 
-	#tickets tr {
+	#mytable tr {
 		border-bottom: 1px solid #ddd;
 	}
 
-	#tickets th,
-	#tickets td {
+	#mytable th,
+	#mytable td {
 		border-top: none;
 		border-bottom: none;
 	}
