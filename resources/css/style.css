@@ -908,3 +908,24 @@ blockquote {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+@media( max-width: 640px ) {
+	#tickets,
+	#tickets thead,
+	#tickets tbody,
+	#tickets tr,
+	#tickets th,
+	#tickets td {
+		display: block;
+	}
+
+	#tickets tr {
+		border-bottom: 1px solid #ddd;
+	}
+
+	#tickets th,
+	#tickets td {
+		border-top: none;
+		border-bottom: none;
+	}
+}
